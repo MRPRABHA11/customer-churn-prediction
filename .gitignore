@@ -1,0 +1,19 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.vscode/
+.DS_Store
+
+# Dataset
+Data/
+
+# Generated customer data and model artifacts
+outputs/churn_predictions.csv
+outputs/cleaned_customers.csv
+outputs/customer_churn.db
+outputs/churn_model.joblib
+
+# Power BI temporary files
+~$*.pbix
