@@ -27,6 +27,9 @@ If your filename differs, pass it as an argument:
 ## Outputs
 The script writes:
 - `outputs/cleaned_customers.csv`: cleaned data for Power BI
+### Dashboard Preview
+
+![Customer Churn Power BI Dashboard](powerbi/dashboard.png)
 - `outputs/churn_predictions.csv`: customer-level churn probabilities and risk bands
 - `outputs/model_metrics.json`: held-out test metrics
 - `outputs/confusion_matrix.png`, `outputs/churn_distribution.png`, `outputs/churn_by_contract.png`
